@@ -1,5 +1,5 @@
 import csv
-from io import FileIO, StringIO
+from io import StringIO
 import time
 
 import streamlit as st
