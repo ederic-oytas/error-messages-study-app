@@ -1,0 +1,21 @@
+task_id,seed,code,error_message_pointer,error_message_underline,error_message_none,first_erroneous_operator_index
+1,0,"a = 79
+c = 'z'
+d = 32
+e = 68
+print(d * d * a * c * e + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d * a * c * e + d)
+          ~~~~~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d * a * c * e + d)
+          ~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d * a * c * e + d)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",4

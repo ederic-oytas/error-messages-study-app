@@ -1,0 +1,2010 @@
+task_id,seed,code,error_message_pointer,error_message_underline,error_message_none,first_erroneous_operator_index
+1,1000,"a = 87
+c = 'v'
+d = 'l'
+f = 29
+print(d * f + a * d + c + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * f + a * d + c + a)
+          ~~~~~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * f + a * d + c + a)
+          ~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * f + a * d + c + a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",4
+2,1001,"a = 2
+b = 's'
+d = 12
+e = 81
+print(a * b * a * e + d + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * b * a * e + d + b)
+          ~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * b * a * e + d + b)
+          ~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * b * a * e + d + b)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",3
+3,1003,"b = 43
+c = 's'
+d = 'q'
+e = 91
+f = 'v'
+print(d * e * c * b + f * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * e * c * b + f * d)
+          ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * e * c * b + f * d)
+          ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * e * c * b + f * d)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+4,1004,"a = 'e'
+d = 91
+e = 3
+f = 16
+print(d + a + f * e + e + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + a + f * e + e + f)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + a + f * e + e + f)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + a + f * e + e + f)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+5,1005,"d = 'z'
+e = 'b'
+f = 84
+print(d * d * e + d * e + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * d * e + d * e + f)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * d * e + d * e + f)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * d * e + d * e + f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+6,1006,"a = 0
+b = 'i'
+c = 6
+d = 'j'
+print(c * a + b + d * a + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * a + b + d * a + b)
+          ~~~~~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * a + b + d * a + b)
+          ~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * a + b + d * a + b)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",1
+7,1007,"a = 'g'
+b = 'h'
+c = 90
+e = 9
+f = 'd'
+print(a + e + b + c + f + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + e + b + c + f + f)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + e + b + c + f + f)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + e + b + c + f + f)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+8,1008,"a = 'r'
+c = 'b'
+d = 27
+e = 'e'
+f = 94
+print(e + d + c + a * f + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + d + c + a * f + a)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + d + c + a * f + a)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + d + c + a * f + a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+9,1011,"a = 44
+b = 'g'
+c = 'c'
+d = 'n'
+f = 72
+print(c * c * a * d * b + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(c * c * a * d * b + f)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(c * c * a * d * b + f)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(c * c * a * d * b + f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+10,1012,"b = 51
+c = 'o'
+d = 'd'
+e = 61
+print(c + b * b * d * b + e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + b * b * d * b + e)
+          ~~~~~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + b * b * d * b + e)
+          ~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + b * b * d * b + e)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",4
+11,1013,"b = 't'
+c = 57
+d = 'u'
+f = 42
+print(d + c * f + f * f + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + c * f + f * f + b)
+          ~~^~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + c * f + f * f + b)
+          ~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + c * f + f * f + b)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+12,1014,"a = 'y'
+b = 's'
+c = 92
+d = 18
+e = 31
+print(e * a + b * c * a * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e * a + b * c * a * d)
+                  ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e * a + b * c * a * d)
+                  ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e * a + b * c * a * d)
+                  
+TypeError: can't multiply sequence by non-int of type 'str'
+",3
+13,1015,"a = 64
+c = 42
+d = 'u'
+e = 'u'
+f = 'x'
+print(a * c * d * e * f * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * c * d * e * f * f)
+          ~~~~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * c * d * e * f * f)
+          ~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * c * d * e * f * f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+14,1016,"c = 's'
+d = 'p'
+e = 'f'
+f = 13
+print(c + f + d * e * c + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f + d * e * c + f)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f + d * e * c + f)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f + d * e * c + f)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+15,1017,"a = 'i'
+b = 'r'
+c = 'x'
+d = 'r'
+f = 'o'
+print(d * f + d * b * a + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * f + d * b * a + c)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * f + d * b * a + c)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * f + d * b * a + c)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+16,1018,"a = 99
+d = 68
+f = 'v'
+print(d + f * d + f + a * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f * d + f + a * f)
+          ~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f * d + f + a * f)
+          ~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f * d + f + a * f)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+17,1019,"a = 'y'
+b = 83
+c = 'l'
+d = 52
+print(a + c * b * a * b * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + c * b * a * b * d)
+              ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + c * b * a * b * d)
+              ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + c * b * a * b * d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+18,1020,"a = 'o'
+b = 'e'
+d = 'b'
+e = 77
+print(a * a + d * d * e * b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * a + d * d * e * b)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * a + d * d * e * b)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * a + d * d * e * b)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+19,1021,"b = 23
+c = 'n'
+e = 'w'
+print(e * e * b * e * b + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(e * e * b * e * b + c)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(e * e * b * e * b + c)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(e * e * b * e * b + c)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+20,1022,"a = 'd'
+b = 'e'
+c = 'm'
+d = 'v'
+e = 'v'
+print(b + d * e + c * a + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b + d * e + c * a + d)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b + d * e + c * a + d)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b + d * e + c * a + d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+21,1023,"b = 'i'
+d = 'c'
+f = 'r'
+print(d * f + d * d * b * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * f + d * d * b * d)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * f + d * d * b * d)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * f + d * d * b * d)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+22,1024,"a = 19
+c = 'n'
+d = 60
+e = 'o'
+print(a * d * d * c * e + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * d * d * c * e + a)
+          ~~~~~~~~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * d * d * c * e + a)
+          ~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * d * d * c * e + a)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",3
+23,1025,"a = 86
+b = 'd'
+c = 43
+print(b + a * a * b * c * b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + a * a * b * c * b)
+              ~~~~~~~~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + a * a * b * c * b)
+              ~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + a * a * b * c * b)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",4
+24,1026,"a = 78
+c = 'h'
+d = 'w'
+f = 'i'
+print(a + d * c * d * f + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + d * c * d * f + c)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + d * c * d * f + c)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + d * c * d * f + c)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+25,1027,"a = 'm'
+b = 'w'
+d = 'c'
+e = 76
+print(a + a * a + e + d * b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + a * a + e + d * b)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + a * a + e + d * b)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + a * a + e + d * b)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+26,1029,"b = 'v'
+c = 'r'
+e = 'p'
+f = 'k'
+print(e * c * f * e * e + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * c * f * e * e + b)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * c * f * e * e + b)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * c * f * e * e + b)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+27,1031,"a = 'p'
+c = 'f'
+e = 'a'
+f = 23
+print(f * e + e * a * a * c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f * e + e * a * a * c)
+                  ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f * e + e * a * a * c)
+                  ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f * e + e * a * a * c)
+                  
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+28,1032,"b = 'n'
+c = 16
+d = 70
+e = 'l'
+f = 'i'
+print(d + f * e * d + b + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + f * e * d + b + c)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + f * e * d + b + c)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + f * e * d + b + c)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+29,1033,"a = 7
+b = 21
+c = 61
+d = 49
+f = 'c'
+print(f + b + f + c * d * a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + b + f + c * d * a)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + b + f + c * d * a)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + b + f + c * d * a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+30,1034,"a = 'f'
+d = 'b'
+f = 36
+print(a + f + a * a + a + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + f + a * a + a + d)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + f + a * a + a + d)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + f + a * a + a + d)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+31,1035,"a = 75
+b = 43
+c = 'h'
+d = 'v'
+f = 'f'
+print(f + d * b + c + b * a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + d * b + c + b * a)
+          ~~~~~~~~~~~~~~^~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + d * b + c + b * a)
+          ~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + d * b + c + b * a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",3
+32,1036,"a = 42
+d = 79
+f = 'd'
+print(d + f + f + f * a * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f + f + f * a * f)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f + f + f * a * f)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f + f + f * a * f)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+33,1038,"a = 34
+b = 11
+c = 'r'
+print(a * a + c * b * a + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a * a + c * b * a + c)
+          ~~~~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a * a + c * b * a + c)
+          ~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a * a + c * b * a + c)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",1
+34,1040,"b = 'h'
+c = 47
+e = 'a'
+f = 66
+print(c * b * e + f * b * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * b * e + f * b * f)
+          ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * b * e + f * b * f)
+          ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * b * e + f * b * f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+35,1042,"a = 'u'
+b = 21
+c = 'x'
+print(b * b * c * a + c * c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b * b * c * a + c * c)
+          ~~~~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b * b * c * a + c * c)
+          ~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b * b * c * a + c * c)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+36,1043,"b = 49
+c = 'n'
+d = 'k'
+e = 'u'
+f = 29
+print(e + c + c * d * b + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + c + c * d * b + f)
+                  ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + c + c * d * b + f)
+                  ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + c + c * d * b + f)
+                  
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+37,1044,"b = 'z'
+c = 6
+d = 67
+f = 'f'
+print(b + c + d + f + d + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + c + d + f + d + f)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + c + d + f + d + f)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + c + d + f + d + f)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+38,1045,"a = 'v'
+d = 'f'
+f = 'q'
+print(f * a * f + f * f + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(f * a * f + f * f + d)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(f * a * f + f * f + d)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(f * a * f + f * f + d)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+39,1046,"a = 'r'
+c = 'k'
+d = 74
+e = 'g'
+print(d + e + d + a + c + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + e + d + a + c + c)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + e + d + a + c + c)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + e + d + a + c + c)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+40,1048,"a = 'n'
+b = 'a'
+c = 52
+f = 16
+print(c + c * b + b * a + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + c * b + b * a + f)
+          ~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + c * b + b * a + f)
+          ~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + c * b + b * a + f)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+41,1049,"a = 24
+b = 26
+d = 2
+e = 'l'
+f = 86
+print(f * f * e * d + a + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f * f * e * d + a + b)
+          ~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f * f * e * d + a + b)
+          ~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f * f * e * d + a + b)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",3
+42,1050,"a = 'u'
+c = 'd'
+d = 'u'
+e = 70
+print(c + e + d * d + c * a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + e + d * d + c * a)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + e + d * d + c * a)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + e + d * d + c * a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+43,1051,"a = 'm'
+c = 50
+d = 79
+f = 'g'
+print(a + f * a * c + d + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + f * a * c + d + f)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + f * a * c + d + f)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + f * a * c + d + f)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+44,1052,"a = 97
+b = 'v'
+c = 'q'
+d = 'j'
+f = 'n'
+print(b * f + a * c + b * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b * f + a * c + b * d)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b * f + a * c + b * d)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b * f + a * c + b * d)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+45,1053,"c = 3
+f = 'g'
+print(c + c * f * f * c + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 3, in <module>
+    print(c + c * f * f * c + f)
+              ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 3, in <module>
+    print(c + c * f * f * c + f)
+              ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 3, in <module>
+    print(c + c * f * f * c + f)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+46,1055,"a = 'y'
+b = 'e'
+c = 45
+e = 93
+f = 'o'
+print(a * a * c * e * f + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * a * c * e * f + b)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * a * c * e * f + b)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * a * c * e * f + b)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+47,1056,"a = 66
+b = 'b'
+c = 'z'
+d = 'b'
+print(a + b * c + b * c + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + b * c + b * c + d)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + b * c + b * c + d)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a + b * c + b * c + d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+48,1057,"b = 'y'
+c = 69
+d = 't'
+e = 'k'
+print(e + e * b * d + c * b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + e * b * d + c * b)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + e * b * d + c * b)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + e * b * d + c * b)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+49,1058,"a = 10
+b = 67
+c = 'z'
+e = 67
+print(c * e + b + b + a + e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * e + b + b + a + e)
+          ~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * e + b + b + a + e)
+          ~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * e + b + b + a + e)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",1
+50,1060,"a = 'w'
+b = 18
+f = 'r'
+print(b + b + a + a * f + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + b + a + a * f + b)
+          ~~~~~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + b + a + a * f + b)
+          ~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + b + a + a * f + b)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",1
+51,1061,"b = 'r'
+c = 'i'
+d = 'k'
+e = 'y'
+print(e + c + c * b + d * c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + c + c * b + d * c)
+                  ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + c + c * b + d * c)
+                  ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + c + c * b + d * c)
+                  
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+52,1062,"a = 71
+b = 'q'
+c = 'k'
+e = 'l'
+f = 'n'
+print(a + b * c + e + f + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + b * c + e + f + a)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + b * c + e + f + a)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + b * c + e + f + a)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+53,1064,"a = 'f'
+b = 'm'
+c = 'w'
+e = 'b'
+print(b * e + a + c + e + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b * e + a + c + e + b)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b * e + a + c + e + b)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b * e + a + c + e + b)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+54,1065,"a = 96
+b = 'h'
+c = 'f'
+e = 36
+f = 'e'
+print(f + a * c + b * e + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + a * c + b * e + a)
+          ~~~~~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + a * c + b * e + a)
+          ~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + a * c + b * e + a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",4
+55,1066,"d = 'x'
+e = 'w'
+f = 'f'
+print(d * e + f + d * e * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * e + f + d * e * d)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * e + f + d * e * d)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d * e + f + d * e * d)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+56,1067,"a = 92
+b = 'u'
+c = 'c'
+d = 's'
+f = 'y'
+print(a * c * d * b + c * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * c * d * b + c * f)
+          ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * c * d * b + c * f)
+          ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a * c * d * b + c * f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+57,1068,"b = 'b'
+d = 'r'
+e = 22
+f = 'j'
+print(d * d * b + d + e * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d * b + d + e * f)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d * b + d + e * f)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d * b + d + e * f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+58,1069,"b = 66
+c = 'h'
+d = 51
+e = 'b'
+f = 97
+print(c + f + b + e * e * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(c + f + b + e * e * d)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(c + f + b + e * e * d)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(c + f + b + e * e * d)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+59,1070,"a = 18
+c = 'd'
+d = 'p'
+f = 'q'
+print(c * f + a + d * a + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * f + a + d * a + f)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * f + a + d * a + f)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * f + a + d * a + f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+60,1071,"a = 's'
+d = 'u'
+e = 95
+print(a + d * d + e + a * e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + d * d + e + a * e)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + d * d + e + a * e)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + d * d + e + a * e)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+61,1072,"a = 94
+d = 'e'
+e = 'k'
+f = 'i'
+print(d * d + a + e * f + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d + a + e * f + d)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d + a + e * f + d)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d * d + a + e * f + d)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+62,1073,"a = 9
+c = 40
+e = 18
+f = 'g'
+print(c + f + a * c * e + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f + a * c * e + f)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f + a * c * e + f)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f + a * c * e + f)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+63,1074,"a = 'm'
+b = 95
+c = 'n'
+d = 'l'
+f = 82
+print(f + d + c * b + a * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + d + c * b + a * f)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + d + c * b + a * f)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + d + c * b + a * f)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+64,1075,"a = 'l'
+b = 27
+c = 74
+d = 'b'
+e = 'n'
+print(d + a * b * a + e + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + a * b * a + e + c)
+              ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + a * b * a + e + c)
+              ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + a * b * a + e + c)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+65,1076,"a = 45
+b = 't'
+c = 'b'
+d = 'd'
+e = 25
+f = 17
+print(c * b + a * d + f + e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 7, in <module>
+    print(c * b + a * d + f + e)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 7, in <module>
+    print(c * b + a * d + f + e)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 7, in <module>
+    print(c * b + a * d + f + e)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+66,1077,"a = 'q'
+b = 'k'
+c = 'x'
+d = 99
+f = 'k'
+print(f + a * b * c * c + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + a * b * c * c + d)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + a * b * c * c + d)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + a * b * c * c + d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+67,1078,"a = 'f'
+b = 14
+c = 54
+d = 'i'
+f = 'o'
+print(a + b * d * d + f * c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + b * d * d + f * c)
+              ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + b * d * d + f * c)
+              ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(a + b * d * d + f * c)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+68,1079,"a = 'h'
+b = 'd'
+d = 69
+e = 'a'
+f = 89
+print(e + f * d * a * f * b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + f * d * a * f * b)
+              ~~~~~~~~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + f * d * a * f * b)
+              ~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + f * d * a * f * b)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",4
+69,1080,"a = 68
+b = 68
+c = 46
+d = 'i'
+e = 'n'
+print(d + e * c * a * b * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + e * c * a * b * d)
+              ~~~~~~~~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + e * c * a * b * d)
+              ~~~~~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d + e * c * a * b * d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",4
+70,1081,"a = 99
+c = 't'
+d = 29
+e = 'u'
+print(d + c * e * e * a + e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + c * e * e * a + e)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + c * e * e * a + e)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + c * e * e * a + e)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+71,1082,"a = 87
+b = 56
+d = 33
+e = 'l'
+f = 11
+print(b * e * e + a + f * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b * e * e + a + f * d)
+          ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b * e * e + a + f * d)
+          ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(b * e * e + a + f * d)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+72,1083,"b = 'v'
+c = 'o'
+d = 'u'
+print(b + c + d * c * c + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + c + d * c * c + b)
+                  ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + c + d * c * c + b)
+                  ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b + c + d * c * c + b)
+                  
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+73,1084,"a = 'f'
+d = 'e'
+f = 'r'
+print(f + a + f + d * d * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(f + a + f + d * d * d)
+                      ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(f + a + f + d * d * d)
+                      ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(f + a + f + d * d * d)
+                      
+TypeError: can't multiply sequence by non-int of type 'str'
+",3
+74,1086,"c = 'b'
+d = 52
+e = 'g'
+f = 53
+print(e + f * d + c * f * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * d + c * f * d)
+          ~~^~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * d + c * f * d)
+          ~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * d + c * f * d)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+75,1087,"a = 'w'
+b = 55
+c = 53
+d = 18
+print(b + a + c * d + b * c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + a + c * d + b * c)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + a + c * d + b * c)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + a + c * d + b * c)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+76,1088,"c = 'u'
+d = 18
+e = 'z'
+f = 8
+print(e + f * e * d * c * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * e * d * c * d)
+              ~~~~~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * e * d * c * d)
+              ~~~~~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * e * d * c * d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",3
+77,1090,"b = 'r'
+c = 'q'
+d = 78
+f = 's'
+print(d + b + d * c + f * b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + b + d * c + f * b)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + b + d * c + f * b)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + b + d * c + f * b)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+78,1091,"a = 17
+c = 'a'
+f = 'l'
+print(c * a + f + c * f * a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(c * a + f + c * f * a)
+                      ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(c * a + f + c * f * a)
+                      ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(c * a + f + c * f * a)
+                      
+TypeError: can't multiply sequence by non-int of type 'str'
+",3
+79,1092,"b = 'c'
+c = 'f'
+d = 32
+e = 40
+print(e * e * d + c * b + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * e * d + c * b + b)
+                      ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * e * d + c * b + b)
+                      ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * e * d + c * b + b)
+                      
+TypeError: can't multiply sequence by non-int of type 'str'
+",3
+80,1093,"c = 19
+d = 97
+e = 'v'
+f = 's'
+print(c + f * e + d * f + c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f * e + d * f + c)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f * e + d * f + c)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c + f * e + d * f + c)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+81,1094,"c = 'l'
+d = 'f'
+e = 'z'
+f = 'x'
+print(e + f * e * c * f + d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * e * c * f + d)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * e * c * f + d)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * e * c * f + d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
+82,1095,"a = 14
+b = 'y'
+d = 94
+e = 79
+print(b + b * a * b * e * d)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + b * a * b * e * d)
+              ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + b * a * b * e * d)
+              ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + b * a * b * e * d)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+83,1096,"a = 11
+d = 'o'
+e = 25
+f = 56
+print(f + d * a * d + d * e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f + d * a * d + d * e)
+              ~~~~~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f + d * a * d + d * e)
+              ~~~~~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f + d * a * d + d * e)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",2
+84,1100,"a = 'r'
+b = 4
+e = 'l'
+f = 50
+print(a * f + b + e + b + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * f + b + e + b + a)
+          ~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * f + b + e + b + a)
+          ~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(a * f + b + e + b + a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",1
+85,1101,"b = 'q'
+c = 34
+d = 't'
+print(c + d + c * b + b + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(c + d + c * b + b + b)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(c + d + c * b + b + b)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(c + d + c * b + b + b)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+86,1102,"b = 63
+c = 'c'
+e = 'w'
+f = 'z'
+print(f * c * b + f + f * e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f * c * b + f + f * e)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f * c * b + f + f * e)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(f * c * b + f + f * e)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+87,1103,"b = 'i'
+d = 's'
+f = 14
+print(d + f + d + f + d * b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f + d + f + d * b)
+          ~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f + d + f + d * b)
+          ~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(d + f + d + f + d * b)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",0
+88,1106,"a = 'r'
+b = 54
+c = 62
+d = 67
+print(d + d + c + a + d + b)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + d + c + a + d + b)
+          ~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + d + c + a + d + b)
+          ~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + d + c + a + d + b)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",2
+89,1107,"b = 'v'
+c = 't'
+d = 61
+e = 'm'
+f = 21
+print(f + b * d + c + f * e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + b * d + c + f * e)
+          ~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + b * d + c + f * e)
+          ~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(f + b * d + c + f * e)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+90,1109,"a = 24
+d = 55
+e = 'g'
+f = 'w'
+print(d + a + d + f * a + e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + a + d + f * a + e)
+          ~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + a + d + f * a + e)
+          ~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(d + a + d + f * a + e)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",2
+91,1110,"a = 't'
+b = 's'
+d = 'm'
+e = 92
+f = 86
+print(d * b * f * e + a * a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * b * f * e + a * a)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * b * f * e + a * a)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * b * f * e + a * a)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+92,1111,"b = 80
+c = 's'
+f = 22
+print(b * b + c + f + b * c)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b * b + c + f + b * c)
+          ~~~~~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b * b + c + f + b * c)
+          ~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(b * b + c + f + b * c)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",1
+93,1113,"a = 'c'
+b = 11
+f = 71
+print(a + a + b + a + f + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + a + b + a + f + a)
+          ~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + a + b + a + f + a)
+          ~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + a + b + a + f + a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",1
+94,1114,"c = 's'
+d = 'f'
+e = 'y'
+f = 'j'
+print(e * c + d + f * d * e)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * c + d + f * d * e)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * c + d + f * d * e)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e * c + d + f * d * e)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+95,1115,"a = 16
+b = 64
+c = 'y'
+f = 54
+print(c * c * a + a + b + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * c * a + a + b + f)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * c * a + a + b + f)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(c * c * a + a + b + f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+96,1116,"a = 13
+c = 'p'
+d = 'o'
+e = 97
+f = 'r'
+print(e + d + c + f + e + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + d + c + f + e + a)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + d + c + f + e + a)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(e + d + c + f + e + a)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0
+97,1117,"a = 'w'
+c = 26
+d = 'e'
+e = 't'
+f = 'c'
+print(d * e * a * f * c * f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * e * a * f * c * f)
+          ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * e * a * f * c * f)
+          ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 6, in <module>
+    print(d * e * a * f * c * f)
+          
+TypeError: can't multiply sequence by non-int of type 'str'
+",0
+98,1118,"a = 24
+b = 'l'
+e = 'm'
+f = 'q'
+print(b + f + e + e + f + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + f + e + e + f + a)
+          ~~~~~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + f + e + e + f + a)
+          ~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not ""int"") to str
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(b + f + e + e + f + a)
+          
+TypeError: can only concatenate str (not ""int"") to str
+",4
+99,1119,"a = 92
+c = 'h'
+e = 66
+print(a + e * e * a + c + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + e * e * a + c + a)
+          ~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + e * e * a + c + a)
+          ~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 4, in <module>
+    print(a + e * e * a + c + a)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",3
+100,1120,"a = 'p'
+d = 80
+e = 32
+f = 'y'
+print(e + f * a + d * a + a)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * a + d * a + a)
+              ~~^~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * a + d * a + a)
+              ~~~~~
+TypeError: can't multiply sequence by non-int of type 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + f * a + d * a + a)
+              
+TypeError: can't multiply sequence by non-int of type 'str'
+",1
