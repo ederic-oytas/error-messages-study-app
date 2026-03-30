@@ -101,7 +101,7 @@ You are free to leave the experiment at any time you wish. At any point after
 the experiment has ended, you may send an email to have all your data
 removed from the study.
 
-This study will track your name, major, and other demographic information, as
+This study will track your name, major, and other information, as
 well as your experiment results (answers and time taken for each task). At the
 end of the experiment, you will be able to download these results.
 
