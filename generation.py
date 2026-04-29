@@ -127,6 +127,7 @@ def main(output_file_name: str, number_of_tasks: int, seed_start: int) -> None:
             error_message_underline=error_message_underline,
             error_message_none=error_message_none,
             first_erroneous_operator_index=first_erroneous_operator_index,
+            correct_answer=first_erroneous_operator_index + 1,
         )
         tasks.append(task)
         print(f"{seed=}, accept for task {task.task_id}")

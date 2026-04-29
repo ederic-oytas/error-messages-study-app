@@ -60,6 +60,7 @@ def load_tasks(input_file_name: str) -> tuple[Task, ...]:
                 first_erroneous_operator_index=int(
                     row["first_erroneous_operator_index"]
                 ),
+                correct_answer=int(row["correct_answer"]),
             )
             tasks.append(task)
     return tuple(tasks)

@@ -10,6 +10,7 @@ class Task:
     error_message_underline: str
     error_message_none: str
     first_erroneous_operator_index: int
+    correct_answer: int
 
 
 @dataclass
