@@ -1,0 +1,21 @@
+task_id,seed,code,error_message_pointer,error_message_underline,error_message_none,first_erroneous_operator_index,correct_answer
+1,10000,"a = 2
+c = 's'
+e = 96
+f = 'h'
+print(e + c + a * f * a + f)","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + c + a * f * a + f)
+          ~~^~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + c + a * f * a + f)
+          ~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+","Traceback (most recent call last):
+  File ""C:\Users\ederi\home\cs\cs789\error-messages-study-app\temp.py"", line 5, in <module>
+    print(e + c + a * f * a + f)
+          
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+",0,1
