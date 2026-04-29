@@ -101,9 +101,9 @@ information online. At the end of the experiment, you will be able to download
 your collected data.
 
 This pilot study is done for one of the experimenter's class assignments. The
-data collected will be anonymized when reported and discarded at the end of the
-semester. The data will not be used in any publication.
-         
+data collected will be anonymized when analyzed and reported. The data will not
+be used in any publication.
+
 You are free to leave the experiment at any time you wish. At any point after
 the experiment has ended, you may send an email to have all your data
 removed from the pilot study.
