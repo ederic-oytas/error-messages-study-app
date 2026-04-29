@@ -104,7 +104,11 @@ This pilot study is done for one of the experimenter's class assignments. The
 data collected will be anonymized when analyzed and reported. The data will not
 be used in any publication.
 
-You are free to leave the experiment at any time you wish. At any point after
+The experiment will take around 10 to 15 minutes to complete. Please find a
+place without interruptions. Also, please take this experiment on a desktop or
+laptop (not a mobile device).
+
+You are free to quit the experiment at any time you wish. At any point after
 the experiment has ended, you may send an email to have all your data
 removed from the pilot study.
 
