@@ -11,10 +11,7 @@ from models import Task, TaskResponse
 # Setup
 #
 
-N_TASKS_PER_SECTION = 10
-TASK_LIMIT = 30
-
-# st.write(st.session_state)
+TASK_LIMIT = 10
 
 
 def ordi(n: int) -> str:
@@ -28,13 +25,13 @@ def ordi(n: int) -> str:
 
 def get_task_error_message(task: Task, group_number: int) -> str:
     assert 1 <= group_number <= 3
-    error_messages = (
-        task.error_message_none,
-        task.error_message_underline,
-        task.error_message_pointer,
-    )
-    index = ((task.task_id - 1) // N_TASKS_PER_SECTION + (group_number - 1)) % 3
-    return error_messages[index]
+    if group_number == 1:
+        return task.error_message_none
+    elif group_number == 2:
+        return task.error_message_underline
+    elif group_number == 3:
+        return task.error_message_pointer
+    assert False, "Group number is invalid"
 
 
 def get_practice_task_error_message(task: Task, group_number: int) -> str:
@@ -90,20 +87,25 @@ task_responses = st.session_state["task_responses"]
 #
 
 st.write("""
-# Error Messages Study
-         
-This study focuses on the readability of error messages. In this study, you
-will completing a total of 30 tasks. At the end of it, you will be asked to
-download and send your completion data to the experimenter (Ederic Oytas
+# Error Messages Pilot Study
+
+Thank you for participating in this study. In this study, you will complete
+several tasks in this web app, then you will be asked to download and send
+your completion data to the experimenter (Ederic Oytas
 <edericoytas@gmail.com>).
+
+This study collects survey information (name, major, etc.) and experimental
+results (answers and time taken for each task). This web app does not send any
+information online. At the end of the experiment, you will be able to download
+your collected data.
+
+This pilot study is done for one of the experimenter's class assignments. The
+data collected will be anonymized when reported and discarded at the end of the
+semester. The data will not be used in any publication.
          
 You are free to leave the experiment at any time you wish. At any point after
 the experiment has ended, you may send an email to have all your data
-removed from the study.
-
-This study will track your name, major, and other information, as
-well as your experiment results (answers and time taken for each task). At the
-end of the experiment, you will be able to download these results.
+removed from the pilot study.
 
 Please check the box below if you understand.
 """)
@@ -196,19 +198,20 @@ st.write("""
 ## Instructions
          
 This experiment consists of two phases: a practice phase and a testing phase.
-The practice phase will get you familiar with the tasks, and you may take it
-as long as you wish. The testing phase is where you will complete 30 tasks.
+The practice phase will help you get familiar with the tasks, and you may take
+it as long as you wish. The testing phase is in the same format but is where
+data is collected.
          
 For each task, you will be presented with a Python code snippet and an error
-message. The last line of the code snippet will always produce a `TypeError`
-because the operations between types is not supported. Your job is to select
-the first operator which produced the error. (If multiple operators would
-produce the error, then the leftmost one would raise an error first.)
+message. The last line of the code snippet will always produce a `TypeError`.
+The task is to select the operator which would produce the error. (If multiple
+operators would produce the error, then the one first evaluated would raise an
+error first.)
          
 We will only be using two operators: `+` and `*`. Multiplication precedes
-addition and both are evaluted from left to right. We will also be only using
-two types: `int` and `str`. In Python, the following operations are support and
-will not raise a `TypeError`:
+addition and both are evaluated from left to right. We will also be only using
+two types: `int` and `str`. In Python, the following operations are supported
+and will not raise a `TypeError`:
          
 * `int + int`
 * `int * int`
@@ -225,6 +228,8 @@ The following operations are not allowed in Python and will always raise a
 st.write(f"""
 ### Example
 
+Below is an example code snippet.
+
 ```python
 {example_task.code}
 ```
@@ -233,8 +238,10 @@ st.write(f"""
 ```
 
 Answer: The **{ordi(example_task.first_erroneous_operator_index + 1)}**
-operator raises the `TypeError` (the last `+`).
+operator raises the `TypeError`.
 """)
+
+st.write("Click the button below to proceed to practice.")
 
 is_instructions_proceed_button_pressed = st.button(
     "Proceed to Practice",
@@ -263,6 +270,8 @@ practice_task = practice_tasks[practice_task_index]
 st.write("""
 ## Practice
 Select the operator which causes the TypeError described in the error message.
+Once you feel comfortable enough with the task format, please click "Proceed
+to Test". (You do not need to complete all the practice tasks.)
 """)
 
 st.write(f"Practice Task: {practice_task.task_id} / {len(practice_tasks)}")
@@ -317,7 +326,7 @@ if "test_answer" not in st.session_state:
     st.session_state["test_answer"] = None
 
 test_task_index = st.session_state["test_task_index"]
-test_task = practice_tasks[test_task_index]
+test_task = tasks[test_task_index]
 
 st.write("""
 ## Test
