@@ -417,7 +417,7 @@ def make_results_csv() -> bytes:
     }
     for i in range(TASK_LIMIT):
         response: TaskResponse = task_responses[i]
-        results_dict[f"answer_index_{i + 1}"] = response.answer_index
+        results_dict[f"answer_{i + 1}"] = response.answer_index
         results_dict[f"time_taken_{i + 1}"] = response.time_taken
     string_io = StringIO()
     writer = csv.DictWriter(string_io, fieldnames=results_dict.keys())
