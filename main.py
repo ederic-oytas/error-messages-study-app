@@ -11,7 +11,7 @@ from models import Task, TaskResponse
 # Setup
 #
 
-TASK_LIMIT = 10
+TASK_LIMIT = 15
 
 
 def ordi(n: int) -> str:
