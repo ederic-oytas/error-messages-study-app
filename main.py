@@ -157,21 +157,21 @@ has_taken_college_or_online_course = st.radio(
     disabled=st.session_state.get("has_submitted_presurvey", False),
     horizontal=True,
 )
-has_programmed_in_python = st.radio(
-    "Have you programmed in Python before?",
-    key="has_programmed_in_python",
-    options=["Yes", "No"],
-    index=None,
-    disabled=st.session_state.get("has_submitted_presurvey", False),
-    horizontal=True,
-)
+# has_programmed_in_python = st.radio(
+#     "Have you programmed in Python before?",
+#     key="has_programmed_in_python",
+#     options=["Yes", "No"],
+#     index=None,
+#     disabled=st.session_state.get("has_submitted_presurvey", False),
+#     horizontal=True,
+# )
 
 is_submit_enabled = (
     group_number is not None
     and len(name.strip()) >= 1
     and len(major.strip()) >= 1
     and has_taken_college_or_online_course is not None
-    and has_programmed_in_python is not None
+    # and has_programmed_in_python is not None
 )
 is_presurvey_submit_button_pressed = st.button(
     "Submit",
@@ -413,7 +413,7 @@ def make_results_csv() -> bytes:
         "name": name,
         "major": major,
         "has_taken_college_or_online_course": has_taken_college_or_online_course,
-        "has_programmed_in_python": has_programmed_in_python,
+        # "has_programmed_in_python": has_programmed_in_python,
     }
     for i in range(TASK_LIMIT):
         response: TaskResponse = task_responses[i]
